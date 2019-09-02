@@ -1,0 +1,35 @@
+GET http://localhost:3000/api/todos
+###
+POST http://localhost:3000/api/todos
+content-type: application/json
+
+{
+    "title": "alskdjf",
+    "description": "Awww no...."
+}
+###
+GET http://localhost:3000/api/todos/3
+###
+DELETE http://localhost:3000/api/todos/2
+###
+PUT http://localhost:3000/api/todos/3
+content-type: application/json
+
+{
+    "title": "Edited2",
+    "description": "wawawa"
+}
+###
+PATCH http://localhost:3000/api/todos/3
+content-type: application/json
+
+{
+    "title": "wow"
+}
+###
+PATCH http://localhost:3000/api/todos/3
+content-type: application/json
+
+{
+    "alksdjf": "wow"
+}

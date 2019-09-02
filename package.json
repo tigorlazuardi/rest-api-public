@@ -1,0 +1,29 @@
+{
+  "name": "restful_web_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "NODE_ENV='development' nodemon app.js",
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TigorLazuardi/REST-API---Part-1.git"
+  },
+  "author": "Tigor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TigorLazuardi/REST-API---Part-1/issues"
+  },
+  "homepage": "https://github.com/TigorLazuardi/REST-API---Part-1#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^7.12.1",
+    "sequelize": "^5.18.0"
+  }
+}
